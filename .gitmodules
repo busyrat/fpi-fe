@@ -1,0 +1,3 @@
+[submodule "packages/fpi-ui"]
+	path = packages/fpi-ui
+	url = git@git.fpi-inc.site:wanghao/fpi-ui.git

@@ -1,0 +1,9 @@
+.page .content:not(.custom),
+.page .page-edit,
+.page .page-nav {
+    max-width: 870px;
+}
+
+.demo-block.demo-button .el-row {
+    margin-bottom: 20px;
+}
