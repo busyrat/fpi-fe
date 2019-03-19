@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/fpi-fe/',
     title: 'fpi-inc',
     themeConfig: {
         // 导航栏
