@@ -1,3 +1,3 @@
 [submodule "packages/fpi-ui"]
 	path = packages/fpi-ui
-	url = git@github.com:busyrat/fpi-fe.git
+	url = https://github.com/busyrat/fpi-ui.git
