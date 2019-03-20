@@ -1,4 +1,4 @@
-import './/md-demo/index.css'
+import './md-demo/index.css'
 import Fpi from '../../packages/fpi-ui'
 
 export default ({

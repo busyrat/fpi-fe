@@ -28,12 +28,9 @@ module.exports = {
         editLinkText: '在 GitHub 上编辑此页',
     },
 
-    // head: [
-    //     ['script', { src: '/js/react.production.min.js' }],
-    //     ['script', { src: '/js/react-dom.production.min.js' }],
-    //     ['script', { src: '/js/vue.min.js' }],
-    //     ['script', { src: '/js/babel.min.js' }]
-    // ],
+    head: [
+        ['link', { rel: 'stylesheet', type: 'text/css', href: 'http://at.alicdn.com/t/font_653301_sblyj1jdu3.css' }]
+    ],
 
     plugins: [
         require('./md-demo'),
