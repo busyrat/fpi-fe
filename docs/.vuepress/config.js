@@ -19,7 +19,7 @@ module.exports = {
         // 侧边栏
         sidebar: {
             '/guide/': [''],
-            '/ui/': ['learn', 'hello', 'button'],
+            '/ui/': ['tree', 'button', 'learn'],
             '/share/others/': ['vuepress']
         },
 

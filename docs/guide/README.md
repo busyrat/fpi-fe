@@ -5,6 +5,9 @@
 ```bash
 # 下载依赖包
 yarn
+# 添加开发库
+git submodule init
+git submodule update
 # 开始写作
 yarn docs:dev
 ```

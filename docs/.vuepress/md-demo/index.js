@@ -108,7 +108,7 @@ module.exports = (options, context) => ({
           }
         }
 
-        let sourceSlot = (script && style && componentTag )
+        let sourceSlot = ((script || style) && componentTag )
           ? `<${componentTag} slot="source"></${componentTag}>`
           : `<div slot="source">${html}</div>`
 
