@@ -1,9 +1,9 @@
 # 学习
 
-123
+## 学习一
 
-::: demo
-```html
+::: demo 第二行高亮
+```html {2}
 <template>
   <div class="box-vue">Vue {{ message }}</div>
 </template>
@@ -17,6 +17,8 @@ export default {
 </style>
 ```
 :::
+
+## 学习二
 
 ::: demo
 ```html
