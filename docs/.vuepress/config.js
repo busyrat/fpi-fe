@@ -19,7 +19,23 @@ module.exports = {
         // 侧边栏
         sidebar: {
             '/guide/': [''],
-            '/ui/': ['tree', 'button', 'learn'],
+            '/ui/': [
+                {
+                    title: 'fpi-ui',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        ''
+                    ]
+                }, {
+                    title: '组件',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        'tree', 'button', 'learn'
+                    ]
+                }
+            ],
             '/share/others/': ['vuepress']
         },
 
@@ -40,7 +56,7 @@ module.exports = {
             selector: '.content img'
         }],
         ['@vuepress/back-to-top', true],
-        '@vuepress/blog',
+        // '@vuepress/blog',
         // '@vuepress/clean-urls',
         ['@vuepress/last-updated', {
             transformer: (timestamp, lang) => {
